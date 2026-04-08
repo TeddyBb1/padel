@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clasament - Padel Arena</title>
+  <meta name="description" content="Clasamente Padel Arena pe divizii, cu podium și tabel complet de jucători." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="theme-light">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"></span>
+        <span class="brand-text">PADEL ARENA</span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="index.html">Home</a>
+        <a href="clasament.html" class="active">Clasament</a>
+        <a href="concursuri.html">Concursuri</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Deschide meniul">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+      <a href="index.html">Home</a>
+      <a href="clasament.html" class="active">Clasament</a>
+      <a href="concursuri.html">Concursuri</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="ranking-hero">
+      <div class="container ranking-hero-grid">
+        <div class="reveal">
+          <div class="eyebrow">Ranking System</div>
+          <h1>Clasamente pe divizii, gândite clar și vizual puternic</h1>
+          <p class="ranking-hero-text">
+            Selectează divizia și vezi rapid podiumul, pozițiile complete,
+            punctajele, meciurile și forma fiecărui jucător.
+          </p>
+        </div>
+
+        <div class="ranking-hero-card reveal delay-1">
+          <small>Sezon 2026</small>
+          <strong>Clasamente actualizate periodic</strong>
+          <span>Divizia A · Divizia B · Divizia C</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ranking-page-section">
+      <div class="container">
+        <div class="division-switch reveal">
+          <button class="division-btn active" data-target="division-a">Divizia A</button>
+          <button class="division-btn" data-target="division-b">Divizia B</button>
+          <button class="division-btn" data-target="division-c">Divizia C</button>
+        </div>
+
+        <div class="division-panel active reveal" id="division-a">
+          <div class="division-header">
+            <div>
+              <div class="eyebrow">Divizia A</div>
+              <h2>Top jucători avansați</h2>
+            </div>
+            <div class="division-summary">
+              <span>Competiție ridicată</span>
+              <span>Ritm intens</span>
+              <span>Top nivel</span>
+            </div>
+          </div>
+
+          <div class="podium-grid">
+            <div class="podium-card second">
+              <small>#2</small>
+              <h3>Vlad Ionescu</h3>
+              <p>1190 puncte</p>
+              <span class="trend up">▲ +1</span>
+            </div>
+
+            <div class="podium-card first">
+              <small>#1</small>
+              <h3>Andrei Popescu</h3>
+              <p>1280 puncte</p>
+              <span class="trend steady">● 0</span>
+            </div>
+
+            <div class="podium-card third">
+              <small>#3</small>
+              <h3>Radu Marin</h3>
+              <p>1125 puncte</p>
+              <span class="trend up">▲ +2</span>
+            </div>
+          </div>
+
+          <div class="ranking-table-wrap">
+            <table class="ranking-table">
+              <thead>
+                <tr>
+                  <th>Loc</th>
+                  <th>Jucător</th>
+                  <th>Puncte</th>
+                  <th>Meciuri</th>
+                  <th>Victorii</th>
+                  <th>Trend</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td>Andrei Popescu</td><td>1280</td><td>24</td><td>20</td><td><span class="trend steady">● 0</span></td></tr>
+                <tr><td>2</td><td>Vlad Ionescu</td><td>1190</td><td>22</td><td>17</td><td><span class="trend up">▲ +1</span></td></tr>
+                <tr><td>3</td><td>Radu Marin</td><td>1125</td><td>21</td><td>16</td><td><span class="trend up">▲ +2</span></td></tr>
+                <tr><td>4</td><td>Matei Dobre</td><td>1060</td><td>20</td><td>14</td><td><span class="trend down">▼ -1</span></td></tr>
+                <tr><td>5</td><td>Alex Tudor</td><td>990</td><td>19</td><td>13</td><td><span class="trend down">▼ -2</span></td></tr>
+                <tr><td>6</td><td>Mihai Pavel</td><td>940</td><td>18</td><td>12</td><td><span class="trend steady">● 0</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="division-panel" id="division-b">
+          <div class="division-header">
+            <div>
+              <div class="eyebrow">Divizia B</div>
+              <h2>Top jucători intermediari</h2>
+            </div>
+            <div class="division-summary">
+              <span>Progres constant</span>
+              <span>Cel mai activ nivel</span>
+              <span>Competiție echilibrată</span>
+            </div>
+          </div>
+
+          <div class="podium-grid">
+            <div class="podium-card second">
+              <small>#2</small>
+              <h3>Paul Ilie</h3>
+              <p>835 puncte</p>
+              <span class="trend up">▲ +1</span>
+            </div>
+
+            <div class="podium-card first">
+              <small>#1</small>
+              <h3>Cristian Ene</h3>
+              <p>860 puncte</p>
+              <span class="trend steady">● 0</span>
+            </div>
+
+            <div class="podium-card third">
+              <small>#3</small>
+              <h3>Robert Toma</h3>
+              <p>790 puncte</p>
+              <span class="trend down">▼ -1</span>
+            </div>
+          </div>
+
+          <div class="ranking-table-wrap">
+            <table class="ranking-table">
+              <thead>
+                <tr>
+                  <th>Loc</th>
+                  <th>Jucător</th>
+                  <th>Puncte</th>
+                  <th>Meciuri</th>
+                  <th>Victorii</th>
+                  <th>Trend</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td>Cristian Ene</td><td>860</td><td>18</td><td>13</td><td><span class="trend steady">● 0</span></td></tr>
+                <tr><td>2</td><td>Paul Ilie</td><td>835</td><td>18</td><td>12</td><td><span class="trend up">▲ +1</span></td></tr>
+                <tr><td>3</td><td>Robert Toma</td><td>790</td><td>17</td><td>11</td><td><span class="trend down">▼ -1</span></td></tr>
+                <tr><td>4</td><td>George Luca</td><td>755</td><td>17</td><td>10</td><td><span class="trend up">▲ +2</span></td></tr>
+                <tr><td>5</td><td>David Neagu</td><td>720</td><td>16</td><td>10</td><td><span class="trend steady">● 0</span></td></tr>
+                <tr><td>6</td><td>Ionuț Mureșan</td><td>690</td><td>15</td><td>9</td><td><span class="trend down">▼ -1</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="division-panel" id="division-c">
+          <div class="division-header">
+            <div>
+              <div class="eyebrow">Divizia C</div>
+              <h2>Top jucători entry level</h2>
+            </div>
+            <div class="division-summary">
+              <span>Accesibil</span>
+              <span>Creștere rapidă</span>
+              <span>Ideal pentru start</span>
+            </div>
+          </div>
+
+          <div class="podium-grid">
+            <div class="podium-card second">
+              <small>#2</small>
+              <h3>Denis Pavel</h3>
+              <p>515 puncte</p>
+              <span class="trend steady">● 0</span>
+            </div>
+
+            <div class="podium-card first">
+              <small>#1</small>
+              <h3>Sebastian Munteanu</h3>
+              <p>540 puncte</p>
+              <span class="trend up">▲ +1</span>
+            </div>
+
+            <div class="podium-card third">
+              <small>#3</small>
+              <h3>Eduard Stan</h3>
+              <p>490 puncte</p>
+              <span class="trend down">▼ -1</span>
+            </div>
+          </div>
+
+          <div class="ranking-table-wrap">
+            <table class="ranking-table">
+              <thead>
+                <tr>
+                  <th>Loc</th>
+                  <th>Jucător</th>
+                  <th>Puncte</th>
+                  <th>Meciuri</th>
+                  <th>Victorii</th>
+                  <th>Trend</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td>Sebastian Munteanu</td><td>540</td><td>14</td><td>9</td><td><span class="trend up">▲ +1</span></td></tr>
+                <tr><td>2</td><td>Denis Pavel</td><td>515</td><td>14</td><td>8</td><td><span class="trend steady">● 0</span></td></tr>
+                <tr><td>3</td><td>Eduard Stan</td><td>490</td><td>13</td><td>8</td><td><span class="trend down">▼ -1</span></td></tr>
+                <tr><td>4</td><td>Florin Nica</td><td>470</td><td>13</td><td>7</td><td><span class="trend up">▲ +2</span></td></tr>
+                <tr><td>5</td><td>Mihai Olaru</td><td>430</td><td>12</td><td>6</td><td><span class="trend steady">● 0</span></td></tr>
+                <tr><td>6</td><td>Rareș Dumitru</td><td>405</td><td>12</td><td>5</td><td><span class="trend down">▼ -2</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
